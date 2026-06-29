@@ -195,14 +195,14 @@ button {
   clip-path: polygon(0 0, 100% 0, 94% 11%, 100% 20%, 91% 34%, 98% 47%, 92% 60%, 100% 74%, 94% 88%, 100% 100%, 0 100%);
   filter: brightness(1.04);
   transform: translateX(-112%) scale(1.06);
-  animation: shellCrackLeft 1180ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
+  animation: shellCrackLeft 980ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
 }
 
 .preloader.is-cracking::after {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 6% 88%, 0 74%, 8% 60%, 2% 47%, 9% 34%, 0 20%, 6% 11%);
   filter: brightness(1.04);
   transform: translateX(112%) scale(1.06);
-  animation: shellCrackRight 1180ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
+  animation: shellCrackRight 980ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
 }
 
 .preloader.is-hidden {
@@ -360,15 +360,15 @@ button {
 }
 
 .preloader.is-cracking .loader-crack {
-  animation: crackFlash 1180ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
+  animation: crackFlash 980ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
 }
 
 .preloader.is-cracking .loader-crack::before {
-  animation: crackLine 1180ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
+  animation: crackLine 980ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
 }
 
 .preloader.is-cracking .loader-crack::after {
-  animation: crackBranch 1180ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
+  animation: crackBranch 980ms cubic-bezier(0.2, 0.9, 0.14, 1) both;
 }
 
 .site-header {
