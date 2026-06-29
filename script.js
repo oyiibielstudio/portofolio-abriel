@@ -85,16 +85,16 @@ const finishPreloader = () => {
 
   window.setTimeout(() => {
     revealPage();
-  }, 1900);
+  }, 1620);
 
   window.setTimeout(() => {
     preloader.classList.add("is-hidden");
     preloader.setAttribute("aria-hidden", "true");
-  }, 2240);
+  }, 2020);
 
   window.setTimeout(() => {
     preloader.remove();
-  }, 2520);
+  }, 2300);
 };
 
 const startPreloader = () => {
