@@ -984,6 +984,11 @@ h3 {
   font-size: 1.02rem;
 }
 
+.tool-card h3 {
+  text-align: center;
+  line-height: 1.08;
+}
+
 .skill-columns {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
